@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>Bugo:Spoiler</id>
+	<name>Spoiler</name>
+	<version>0.2</version>
+	<type>modification</type>
+
+	<install for="2.1.*">
+		<hook hook="integrate_pre_load" function="Spoiler::hooks#" file="$sourcedir/Class-Spoiler.php" />
+		<require-dir name="Themes" destination="$boarddir" />
+		<require-dir name="Sources" destination="$boarddir" />
+	</install>
+
+	<uninstall for="2.1.*">
+		<hook hook="integrate_pre_load" function="Spoiler::hooks#" file="$sourcedir/Class-Spoiler.php" reverse="true" />
+		<remove-file name="$sourcedir/Class-Spoiler.php" />
+		<remove-file name="$themedir/css/spoiler.css" />
+		<remove-file name="$themedir/scripts/spoiler.js" />
+		<remove-dir name="$languagedir/Spoiler" />
+		<redirect url="?action=admin;area=packages;sa=browse" timeout="1000" />
+	</uninstall>
+
+</package-info>
