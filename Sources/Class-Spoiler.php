@@ -4,16 +4,16 @@
  * Class-Spoiler.php
  *
  * @package Spoiler
- * @link https://dragomano.ru/mods/spoiler
+ * @link https://github.com/dragomano/Spoiler
  * @author Bugo https://dragomano.ru/mods/spoiler
- * @copyright 2021 Bugo
+ * @copyright 2021-2023 Bugo
  * @license https://opensource.org/licenses/BSD-3-Clause BSD
  *
- * @version 0.2
+ * @version 0.3
  */
 
 if (!defined('SMF'))
-	die('Hacking attempt...');
+	die('No direct access...');
 
 class Spoiler
 {

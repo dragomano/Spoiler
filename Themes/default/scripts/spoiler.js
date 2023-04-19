@@ -27,7 +27,7 @@
 				editor.createDropDown(caller, 'add-spoiler', content[0]);
 			},
 			txtExec: function () {
-				let title = prompt(smf_txt_spoiler_title);
+				let title = prompt(smf_txt_spoiler_title, '');
 
 				title = title ? '="' + title + '"' : '';
 

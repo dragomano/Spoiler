@@ -1,12 +1,9 @@
 # Spoiler
 ![SMF 2.1](https://img.shields.io/badge/SMF-2.1-ed6033.svg?style=flat)
 ![License](https://img.shields.io/github/license/dragomano/spoiler)
+![Hooks only: Yes](https://img.shields.io/badge/Hooks%20only-YES-blue)
 
-* **Author:** Bugo
-* **License:** [BSD 3](https://github.com/dragomano/Spoiler/blob/main/LICENSE)
-* **Compatible with:** SMF 2.1.*
-* **Tested on:** PHP 7.4.25
-* **Hooks only:** Yes
+* **Tested on:** PHP 8.0.24
 * **Languages:** English, Russian
 
 ## Description
