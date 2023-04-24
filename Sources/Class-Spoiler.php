@@ -114,6 +114,9 @@ class Spoiler
 	{
 		global $txt;
 
+		if (empty($txt['spoiler']))
+			return;
+
 		$codes = array_merge(
 			$codes,
 			array(
