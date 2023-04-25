@@ -4,12 +4,12 @@
  * Class-Spoiler.php
  *
  * @package Spoiler
- * @link https://github.com/dragomano/Spoiler
+ * @link https://custom.simplemachines.org/index.php?mod=4365
  * @author Bugo https://dragomano.ru/mods/spoiler
  * @copyright 2021-2023 Bugo
  * @license https://opensource.org/licenses/BSD-3-Clause BSD
  *
- * @version 0.3
+ * @version 0.3.1
  */
 
 if (!defined('SMF'))
