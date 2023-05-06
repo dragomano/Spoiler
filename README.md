@@ -4,7 +4,7 @@
 ![Hooks only: Yes](https://img.shields.io/badge/Hooks%20only-YES-blue)
 
 * **Tested on:** PHP 8.0.24
-* **Languages:** English, Russian
+* **Languages:** English, Russian, Italian
 
 ## Description
 A really simple spoiler for SMF 2.1
