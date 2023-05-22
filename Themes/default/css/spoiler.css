@@ -29,7 +29,7 @@ body[contenteditable] .bbc_spoiler[open] > summary {
 .bbc_spoiler {
 	display: block;
 	box-sizing: border-box;
-	user-select: none;
+	/* user-select: none; */
 	overflow: hidden;
 	background: #cfc;
 	color: #000;
