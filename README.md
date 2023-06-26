@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/github/license/dragomano/spoiler)
 ![Hooks only: Yes](https://img.shields.io/badge/Hooks%20only-YES-blue)
 
-* **Tested on:** PHP 8.0.24
+* **Tested on:** PHP 8.2.6
 * **Languages:** English, Russian, Italian
 
 ## Description
